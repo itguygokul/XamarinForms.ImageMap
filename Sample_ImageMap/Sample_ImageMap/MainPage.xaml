@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Sample_ImageMap"
+             x:Class="Sample_ImageMap.MainPage">
+    <AbsoluteLayout BackgroundColor="Yellow">
+        <Image x:Name="image_bg" Aspect="AspectFill" AbsoluteLayout.LayoutBounds=".5,.5,1,1" AbsoluteLayout.LayoutFlags="All"  />
+        <Button x:Name="btn1" WidthRequest="30" HeightRequest="30" AbsoluteLayout.LayoutBounds=".561,.250,-1,-1" AbsoluteLayout.LayoutFlags="PositionProportional" Clicked="btn1_Clicked" BorderColor="Yellow" BorderWidth="2" BackgroundColor="Transparent"/>
+        <Button x:Name="btn2" WidthRequest="30" HeightRequest="30" AbsoluteLayout.LayoutBounds=".363,.380,-1,-1" AbsoluteLayout.LayoutFlags="PositionProportional" Clicked="btn2_Clicked" BorderColor="Yellow" BorderWidth="2" BackgroundColor="Transparent"/>
+        <Button x:Name="btn3" WidthRequest="30" HeightRequest="30" AbsoluteLayout.LayoutBounds=".710,.500,-1,-1" AbsoluteLayout.LayoutFlags="PositionProportional" Clicked="btn3_Clicked" BorderColor="Yellow" BorderWidth="2" BackgroundColor="Transparent"/>
+        <Button x:Name="btn4" WidthRequest="30" HeightRequest="30" AbsoluteLayout.LayoutBounds=".367,.612,-1,-1" AbsoluteLayout.LayoutFlags="PositionProportional" Clicked="btn4_Clicked" BorderColor="Yellow" BorderWidth="2" BackgroundColor="Transparent"/>
+        <Button x:Name="btn5" WidthRequest="30" HeightRequest="30" AbsoluteLayout.LayoutBounds=".565,.730,-1,-1" AbsoluteLayout.LayoutFlags="PositionProportional" Clicked="btn5_Clicked" BorderColor="Yellow" BorderWidth="2" BackgroundColor="Transparent"/>
+    </AbsoluteLayout>
+</ContentPage>
